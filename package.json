@@ -1,0 +1,39 @@
+{
+  "devDependencies": {
+    "open": "^10.1.0",
+    "serve": "^14.2.3"
+  },
+  "name": "odoo-html-static-page",
+  "description": "El objetivo de este proyecto es transformar un diseño de mockup proporcionado en una página HTML estática completamente funcional.",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve ./src",
+    "open-coverage-report": "opener ./coverage/lcov-report/index.html",
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CynCaro/Odoo-HTML-static-page.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "CSS",
+    "SCSS",
+    "JavaScript",
+    "static",
+    "HTML",
+    "accessibility",
+    "user",
+    "experience",
+    "web",
+    "design",
+    "mockup"
+  ],
+  "author": "Cynthia Carolina Valdez Mtz. <cyn.caro.mtz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CynCaro/Odoo-HTML-static-page/issues"
+  },
+  "homepage": "https://github.com/CynCaro/Odoo-HTML-static-page#readme"
+}
