@@ -1,0 +1,186 @@
+* {
+    color: #162C5B;
+
+    p {
+        font-size: .8rem;
+    }
+
+    .row {
+        justify-content: center;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: .8rem;
+    }
+
+    h6 {
+        color: #A1ADBB;
+        font-size: .7rem;
+        font-weight: 400;
+    }
+
+    /* ESTILOS MENÚ */
+    header {
+        background-color: #038AFF;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .diagonal {
+        background-color: #038AFF;
+        display: flex;
+        justify-content: center;
+        padding: 5% 0 10%;
+    } 
+
+    header img {
+        /* Logotipo */
+        width: 80px;
+        height: auto;
+        object-fit: contain;
+        margin-left: 0px;
+    }
+
+    a {
+        color: #FFFFFF;
+        font-size: .8rem;
+    }
+
+    a:hover {
+        color: #162C5B;
+    }
+
+    .nav {
+        flex-wrap: nowrap;
+    }
+
+    .col-lg-auto {
+        padding: 0px;
+    }
+
+    .align-items-center {
+        width: 100%;
+    }
+
+    .divider-nav::after {
+        content: '';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid #ccc; /* Establece el estilo de la línea de separación */
+        width: 76%; /* Ocupa todo el ancho de la fila */
+        margin-top: 20px; /* Añade espacio entre la división y los elementos */
+        padding: 0px;
+        width: 77%;
+    }
+
+    /* Estilos botón Buy now */
+    .col-lg {
+        padding-right: 0;
+        padding-right: 0;
+    }
+
+    .nav.justify-content-end {
+        width: fit-content;
+    }
+
+    .btn-primary {
+        color: #1B1247;
+        background-color: #FEFEFE;
+        font-size: .8rem;
+        font-weight: 500;
+    }
+
+    #icono-compra {
+        color: #1B1247;
+    }
+
+    /* ESTILOS PRODUCTS */
+    .white {
+        color: #FEFEFE;
+    }
+
+    .col-lg-6 {
+        align-content: center;
+        padding-left: 0px;
+    }
+
+    .left {
+        padding-right: 40%;
+    }
+
+    .img-fluid {
+        width: 12%;
+    }
+
+    .p-small {
+        font-size: .6rem;
+    }
+
+    .diagonal {
+        background-color: #038AFF;
+        display: flex;
+        justify-content: center;
+        padding: 5% 7% 10% 7%;
+    }
+
+    .diagonal-container {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+    }
+
+
+    /* Columna Derecha */
+    .products-right {
+        background-color: #FEFEFE;
+        padding: 20px;
+        border-radius: 10px 10px 50px 10px;
+        margin-left: 20px;
+    }
+
+    .col-lg-4 {
+        align-content: center;
+        /* margin-right: 45px; */
+    }
+
+    /* Estilos Card */
+    .card {
+        background-color: #1B1247;
+        border-radius: 15px;
+        padding: 25px;
+    }
+
+    .green-span {
+        background-color: #5CCAA7;
+        padding: 4px 10px;
+        border-radius: 5px;
+    }
+
+    #without-outline {
+        border: 1px solid #A1ADBB;
+        padding: 4px 10px;
+        font-size: .7rem;
+    }
+
+    .view-all-link {
+        text-decoration: none;
+        /* Quita el subrayado predeterminado */
+        color: blue;
+        /* Color del texto azul */
+        position: relative;
+        /* Posición relativa para poder posicionar la flecha */
+        text-decoration: underline dotted;
+        padding: 0px 0px 10px;
+    }
+
+    .divider {
+        border-bottom: 1px solid #ccc; /* Establece una línea de separación sólida */
+        margin: 20px 0px; /* Añade espacio entre los divs */
+    }
+}
