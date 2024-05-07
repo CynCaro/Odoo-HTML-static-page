@@ -1,21 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header class="container-fluid">
+        <section class="row align-items-center divider-nav">
+            <div class="col-lg-auto">
+                <!-- Logo -->
+                <img src="./images/odoo-white.svg" alt="logotipo-odoo">
+            </div>
+            <section class="col-lg-6 text-center">
+                <!-- Menú de navegación -->
+                <nav>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">App</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Docs</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="row-lg">
+                <!-- Elementos a la derecha -->
+                <ul class="nav justify-content-end">
+                    <li class="nav-item"><a class="nav-link" href="#">Sign in</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary" href="#">
+                            <i class="fas fa-shopping-bag mr-2"></i> Buy now
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </header>
     
 
+
+
+    <main>
+        <!-- Products -->
+        <section class="diagonal diagonal-container">
+            <div class="row">
+                <!-- Primera columna -->
+                <section class="col-lg-6 products-left">
+                    <h1 class="white left">Development done right</h1>
+                    <p class="white left">Build a beautiful, modern website with flexible components built from
+                        scratch.
+                    </p>
+                    <div class="d-flex align-items-center">
+                        <p class="white p-small text-center mr-4 mb-0">Trusted by:</p>
+                        <img src="./images/google-white.svg" class="img-fluid mr-4" alt="Google">
+                        <!-- Clase img-fluid para hacer las imágenes responsivas -->
+                        <img src="./images/spotify-white.svg" class="img-fluid mr-4" alt="Spotify">
+                        <img src="./images/airbnb-white.svg" class="img-fluid mr-4" alt="Airbnb">
+                        <img src="./images/paypal-white.svg" class="img-fluid" alt="PayPal">
+                    </div>
+                </section>
+                <!-- Segunda columna -->
+                <section class="col-lg-4 products-right">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5 class="mb-0">Manage cards</h5>
+                        <a class="nav-link btn btn-primary" id="without-outline" href="#">Add new</a>
+                    </div>
+                    <section class="card">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <img src="./images/mastercard.svg" class="img-fluid">
+                            <p class="mb-0"><span class="white green-span">Active</span></p>
+                        </div>
+                        <p class="white p-small">CARD NUMBER</p>
+                        <h4 class="white mb-3">4358 - 7421 - 9256 - 6682</h4>
+                        <div class="col-lg-10 row d-flex justify-content-between">
+                            <p class="white p-small">NAME</p>
+                            <p class="white p-small">EXPIRY DATE</p>
+                        </div>
+                        <div class="col-lg-9 row d-flex justify-content-between">
+                            <h5 class="white">John Snow</h5>
+                            <h5 class="white">11/23</h5>
+                        </div>
+                    </section>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <h5 class="mb-0">Starbucks</h5>
+                        <h5>$5.50 USD</h5>
+                    </div>
+                    <h6>Pending - San Francisco, United States</h6>
+                    <div class="divider"></div> <!-- Línea de separación -->
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <h5 class="mb-0">Nike Sports</h5>
+                        <h5 class="mb-0">$129,00 USD</h5>
+                    </div>
+                    <h6>Pending - San Francisco, United States</h6>
+                    <div class="divider"></div> <!-- Línea de separación -->
+                    <a class="nav-link view-all-link" href="#">View all></a>
+                </section>
+            </div>
+        </section>
+        <!-- Tools -->
+        <section>
+            <section>
+                <h4>Awesome projects</h4>
+                <h6>Create the new logo</h6>
+                <h4>3:50</h4>
+                <h6>Set up the color palette</h6>
+                <h4>4:00</h4>
+            </section>
+        </section>
+    </main>
+
+
+
+
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
