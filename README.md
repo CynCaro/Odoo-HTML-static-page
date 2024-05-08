@@ -1,33 +1,33 @@
-# Reto Técnico - Conversión de Maqueta a Página HTML Estática
-¡Bienvenido al reto técnico para convertir esta emocionante maqueta en una página HTML estática! En este desafío, utilizamos habilidades en HTML, Bootstrap (v4.6.x), y CSS (vanilla o SCSS) para dar vida a esta creativa maqueta.
+# Technical Challenge - Mockup to Static HTML Page Conversion
+Welcome to the technical challenge to turn this exciting mockup into a static HTML page! In this challenge, we use HTML, Bootstrap (v4.6.x), and CSS (vanilla or SCSS) skills to bring this creative mockup to life.
 
-# Maqueta Original
-![Mock-up provided](./src/images/mock-up-odoo.jpg)
+# Original Mockup
+![Mockup provided](./src/images/mock-up-odoo.jpg)
 
-# Requisitos y Guía de Implementación
+# Requirements and Implementation Guide
 
-- Utilizar Bootstrap v4.6, aprovechando las variables y mapas SCSS siempre que sea posible.
-- El diseño final debe verse correctamente en un viewport con tamaño ≥ 992px.
-- No se espera una reproducción exacta pixel-perfect de la maqueta, siéntete libre de adaptar la maquetación y diseño según consideres necesario.
-- Asegúrate de que las 5 casillas de la sección "Premios" sean clicables con un efecto hover.
-- La sección "Respuestas útiles" debe contener un acordeón totalmente funcional.
-- No dudes en incluir comentarios y notas en tu código para facilitar su comprensión.
+- Use Bootstrap v4.6, taking advantage of SCSS variables and maps whenever possible.
+- The final layout should look correct in a viewport with size ≥ 992px.
+- Do not expect a pixel-perfect exact reproduction of the mockup, feel free to adapt the layout and design as you see fit.
+- Make sure the 5 boxes in the "Awards" section are clickable with a hover effect.
+- The "Useful answers" section should contain a fully functional accordion.
+- Feel free to include comments and notes in your code to make it easier to understand.
 
-# Puntos a Favor y Áreas de Mejora
+# Strengths and Areas for Improvement
 
-### Puntos Positivos:
+### Positive Points:
 
--La distribución del contenido es efectiva y atractiva.
-- Las animaciones involucran al usuario.
-- Se utilizan colores llamativos con buenos contrastes.
-- El uso de iconos agrega un toque divertido al diseño.
+- Content distribution is effective and attractive.
+- Animations engage the user.
+- Eye-catching colors with good contrasts are used.
+- The use of icons adds a fun touch to the design.
 
-### Áreas de Mejora:
+### Areas for Improvement:
 
-- En la sección "Tools", el vídeo puede cubrir parte del contenido en el cuadro izquierdo. Se ha redistribuido esta sección para mejorar la visualización.
-- Se sugiere agregar más acentos de color para resaltar otras partes de la información y evitar que el diseño se vuelva plano.
-- Considera añadir un fondo más llamativo para mejorar la estética general de la página.
+- In the "Tools" section, the video can cover part of the content in the left frame. This section has been rearranged to improve the display.
+- It is suggested to add more color accents to highlight other parts of the information and prevent the design from becoming flat.
+- Consider adding a bolder background to improve the overall aesthetics of the page.
 
-# Publicación
+# Publication
 
 This site was built using [GitHub Pages](https://cyncaro.github.io/Odoo-HTML-static-page/src/)
