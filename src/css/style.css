@@ -1,5 +1,5 @@
 * {
-    color: #162C5B;
+    /* color: #162C5B; */
 
     p {
         font-size: .8rem;
@@ -273,4 +273,13 @@ a:hover {
     background-color: #FFFFFF;
     font-weight: 500;
     font-size: 1.5rem;
+}
+
+/* EASY TO INSTALL */
+.icon-app {
+    width: 3rem;
+}
+
+.card-right {
+    border-radius: 0 50px 0 50px;
 }
