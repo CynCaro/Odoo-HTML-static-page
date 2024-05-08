@@ -22,165 +22,255 @@
         font-size: .7rem;
         font-weight: 400;
     }
+}
 
-    /* ESTILOS MENÚ */
-    header {
-        background-color: #038AFF;
-        height: 80px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-top: 20px;
-    }
+/* ESTILOS MENÚ */
+header {
+    background-color: #038AFF;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
 
-    .diagonal {
-        background-color: #038AFF;
-        display: flex;
-        justify-content: center;
-        padding: 5% 0 10%;
-    } 
+.diagonal {
+    background-color: #038AFF;
+    display: flex;
+    justify-content: center;
+    padding: 5% 0 10%;
+}
 
-    header img {
-        /* Logotipo */
-        width: 80px;
-        height: auto;
-        object-fit: contain;
-        margin-left: 0px;
-    }
+header img {
+    /* Logotipo */
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+    margin-left: 0px;
+}
 
-    a {
-        color: #FFFFFF;
-        font-size: .8rem;
-    }
+a {
+    color: #FFFFFF;
+    font-size: .8rem;
+}
 
-    a:hover {
-        color: #162C5B;
-    }
+a:hover {
+    color: #162C5B;
+}
 
-    .nav {
-        flex-wrap: nowrap;
-    }
+.nav {
+    flex-wrap: nowrap;
+}
 
-    .col-lg-auto {
-        padding: 0px;
-    }
+.col-lg-auto {
+    padding: 0px;
+}
 
-    .align-items-center {
-        width: 100%;
-    }
+.align-items-center {
+    width: 100%;
+}
 
-    .divider-nav::after {
-        content: '';
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-bottom: 1px solid #ccc; /* Establece el estilo de la línea de separación */
-        width: 76%; /* Ocupa todo el ancho de la fila */
-        margin-top: 20px; /* Añade espacio entre la división y los elementos */
-        padding: 0px;
-        width: 77%;
-    }
+.divider-nav::after {
+    content: '';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #FFFFFF;
+    /* Establece el estilo de la línea de separación */
+    width: 76%;
+    /* Ocupa todo el ancho de la fila */
+    margin-top: 20px;
+    /* Añade espacio entre la división y los elementos */
+    padding: 0px;
+    width: 77%;
+}
 
-    /* Estilos botón Buy now */
-    .col-lg {
-        padding-right: 0;
-        padding-right: 0;
-    }
+/* Estilos botón Buy now */
+.col-lg {
+    padding-right: 0;
+    padding-right: 0;
+}
 
-    .nav.justify-content-end {
-        width: fit-content;
-    }
+.nav.justify-content-end {
+    width: fit-content;
+}
 
-    .btn-primary {
-        color: #1B1247;
-        background-color: #FEFEFE;
-        font-size: .8rem;
-        font-weight: 500;
-    }
+.btn-primary {
+    color: #1B1247;
+    background-color: #FEFEFE;
+    font-size: .8rem;
+    font-weight: 500;
+}
 
-    #icono-compra {
-        color: #1B1247;
-    }
+#icono-compra {
+    color: #1B1247;
+}
 
-    /* ESTILOS PRODUCTS */
-    .white {
-        color: #FEFEFE;
-    }
+/* ESTILOS PRODUCTS */
+.white {
+    color: #FEFEFE;
+}
 
-    .col-lg-6 {
-        align-content: center;
-        padding-left: 0px;
-    }
+.col-lg-6 {
+    align-content: center;
+    padding-left: 0px;
+}
 
-    .left {
-        padding-right: 40%;
-    }
+.left {
+    padding-right: 40%;
+}
 
-    .img-fluid {
-        width: 12%;
-    }
+.img-fluid {
+    width: 12%;
+}
 
-    .p-small {
-        font-size: .6rem;
-    }
+.p-small {
+    font-size: .6rem;
+}
 
-    .diagonal {
-        background-color: #038AFF;
-        display: flex;
-        justify-content: center;
-        padding: 5% 7% 10% 7%;
-    }
+.diagonal {
+    background-color: #038AFF;
+    display: flex;
+    justify-content: center;
+    padding: 5% 7% 10% 7%;
+}
 
-    .diagonal-container {
-        clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
-    }
+.diagonal-container {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+}
 
 
-    /* Columna Derecha */
-    .products-right {
-        background-color: #FEFEFE;
-        padding: 20px;
-        border-radius: 10px 10px 50px 10px;
-        margin-left: 20px;
-    }
+/* Columna Derecha */
+.products-right {
+    background-color: #FEFEFE;
+    padding: 20px;
+    border-radius: 10px 10px 50px 10px;
+    margin-left: 20px;
+}
 
-    .col-lg-4 {
-        align-content: center;
-        /* margin-right: 45px; */
-    }
+.col-lg-4 {
+    align-content: center;
+    /* margin-right: 45px; */
+}
 
-    /* Estilos Card */
-    .card {
-        background-color: #1B1247;
-        border-radius: 15px;
-        padding: 25px;
-    }
+/* Estilos Card */
+.card {
+    background-color: #1B1247;
+    border-radius: 15px;
+    padding: 25px;
+}
 
-    .green-span {
-        background-color: #5CCAA7;
-        padding: 4px 10px;
-        border-radius: 5px;
-    }
+.green-span {
+    background-color: #5CCAA7;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
 
-    #without-outline {
-        border: 1px solid #A1ADBB;
-        padding: 4px 10px;
-        font-size: .7rem;
-    }
+#without-outline {
+    border: 1px solid #A1ADBB;
+    padding: 4px 10px;
+    font-size: .7rem;
+}
 
-    .view-all-link {
-        text-decoration: none;
-        /* Quita el subrayado predeterminado */
-        color: blue;
-        /* Color del texto azul */
-        position: relative;
-        /* Posición relativa para poder posicionar la flecha */
-        text-decoration: underline dotted;
-        padding: 0px 0px 10px;
-    }
+.view-all-link {
+    text-decoration: none;
+    /* Quita el subrayado predeterminado */
+    color: blue;
+    /* Color del texto azul */
+    position: relative;
+    /* Posición relativa para poder posicionar la flecha */
+    text-decoration: underline dotted;
+    padding: 0px 0px 10px;
+}
 
-    .divider {
-        border-bottom: 1px solid #ccc; /* Establece una línea de separación sólida */
-        margin: 20px 0px; /* Añade espacio entre los divs */
-    }
+.divider {
+    border-bottom: 1px solid #ccc;
+    /* Establece una línea de separación sólida */
+    margin: 20px 0px;
+    /* Añade espacio entre los divs */
+}
+
+/* TOOLS */
+.bg-white {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.tool-subtitle {
+    color: #A1ADBB;
+    padding-right: 10%;
+}
+
+.btn-sm {
+    border-radius: 1rem;
+    color: #FFFFFF;
+    width: fit-content;
+}
+
+/* Card Awesome Tools */
+.progress {
+    border-radius: .75rem;
+    height: .50rem;
+}
+
+/* Video 1 */
+.custom-image {
+    position: absolute;
+    border-radius: 1rem;
+    width: 100%;
+    object-fit: cover;
+    max-height: 90%;
+}
+
+.play-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1;
+    /* Asegura que el botón esté por encima de la imagen */
+    color: #1B1247;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+/* FEATURES */
+.features {
+    margin-top: 8rem;
+}
+
+.btn-features {
+    background-color: #5CCAA7;
+}
+
+.checkbox-text {
+    color: #5CCAA7;
+}
+
+.custom-image-features {
+    border-radius: 1rem;
+    object-fit: cover;
+    max-height: 80%;
+}
+
+.bg-white-features {
+    background-color: #FFFFFF;
+    font-size: .75rem;
+    font-weight: 500;
+    padding: 0;
+    height: auto;
+}
+
+/* TECHNOLOGY */
+.technology {
+    background-color: #038AFF;
+}
+
+.img-technology {
+    border-radius: .75rem .75rem 0 0;
+}
+
+.bg-white-technology {
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.5rem;
 }
