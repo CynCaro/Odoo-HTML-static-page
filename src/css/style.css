@@ -321,6 +321,10 @@ a:hover {
     border-radius: .50rem;
 }
 
+.helpful-subtitle {
+    color: #A1ADBB;
+}
+
 .btn-link {
     color: #1B1247;
     font-size: .75rem;
@@ -339,4 +343,22 @@ a:hover {
 .line {
     border-top: 1px solid rgba(0, 0, 0, .125);
     padding: .75rem 1.25rem 0rem 1.25rem;
+}
+
+/* FOOTER */
+.footer {
+    color: #FFFFFF;
+    background-color: #1B1247;
+    padding: 10% 0 5% 0;
+    margin-top: 2rem;
+    clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.img-footer {
+    width: 25%;
+}
+
+.p-footer {
+    padding-right: 25%;
+    margin-top: 1rem;
 }
