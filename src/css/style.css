@@ -272,7 +272,7 @@ a:hover {
 .bg-white-technology {
     background-color: #FFFFFF;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 /* EASY TO INSTALL */
@@ -282,4 +282,30 @@ a:hover {
 
 .card-right {
     border-radius: 0 50px 0 50px;
+}
+
+/* AWARDS */
+.diagonal-container-awards {
+    background-color: rgb(3, 138, 255, 0.1);
+    margin-top: 8rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+}
+
+.text-awards {
+    font-size: .7rem;
+    padding: 0;
+}
+
+.h4-awards {
+    font-size: .65rem;
+    margin-bottom: 1rem;
+}
+
+/* Efecto hover a las cards */
+.effect {
+    transition: transform 0.3s ease;
+}
+
+.effect:hover {
+    transform: scale(1.06); /* Aumenta el tamaño al hacer hover */
 }
