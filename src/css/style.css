@@ -272,7 +272,7 @@ a:hover {
 .bg-white-technology {
     background-color: #FFFFFF;
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
 }
 
 /* EASY TO INSTALL */
@@ -361,4 +361,18 @@ a:hover {
 .p-footer {
     padding-right: 25%;
     margin-top: 1rem;
+}
+
+.line-footer {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-bottom: 2rem
+}
+
+.social-media {
+    background-color: transparent; /* Establece el fondo transparente */
+}
+
+.social-media i {
+    color: white; /* Establece el color del icono en blanco */
+    font-size: 24px;
 }
